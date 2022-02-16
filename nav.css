@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+
+nav {
+    padding: 2%;
+    height: 4vh;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;    
+    justify-content: space-evenly;
+    padding: 0;
+    font-size: 1.5em;
+    font-family: 'Gotham', sans-serif;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul > li::after {
+    display: inline-block;
+    margin-top: 5%;
+    height: 3px;
+    content: "";
+    background-color: #999;
+    width: 0%;
+    
+}
+
+nav > ul > li:hover::after {
+    animation: slide 1s forwards;
+}
+
+.header{
+    background-color: rgba(182, 194, 202, 0.15);
+}
+.header > img {
+    width: 15%;
+    margin-left: 42.5%;
+    align-self: center;
+}
+
+@keyframes slide {
+    100% {
+        width:100%;
+    }
+}

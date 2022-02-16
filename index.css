@@ -1,0 +1,14 @@
+h1 {
+    font-family: 'Gotham', sans-serif;
+    text-align: center;
+    background:rgb(235,235,255);
+    font-size: 4rem;
+    padding: 5%;
+}
+p
+{
+    font-family: 'Gotham', sans-serif;
+    background-color:white;
+    padding: 5%;
+    font-size: 2rem;
+}
